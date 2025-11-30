@@ -1,0 +1,212 @@
+[00:00:14.248] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:14.514] Server  LOG      ✓ Ready in 13.7s
+[00:00:27.252] Server  ERROR    ⨯ ./Documents/projects/oceanlabz-portal/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.darwin-x64.node'
+Require stack:
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/node/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/postcss/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[root-of-the-server]__4a408683._.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[turbopack]_runtime.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)]
+    [at Module._load (node:internal/modules/cjs/loader:986:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at Object.<anonymous> (/Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1358:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1208:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1024:12)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+
+Import trace:
+  Client Component Browser:
+    ./Documents/projects/oceanlabz-portal/app/globals.css [Client Component Browser]
+    ./Documents/projects/oceanlabz-portal/app/layout.tsx [Server Component]
+
+
+[00:00:28.676] Server  WARN     ⚠ Cross origin request detected from 10.114.185.100 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:28.702] Browser ERROR   uncaughtError: Error: ./Documents/projects/oceanlabz-portal/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.darwin-x64.node'
+Require stack:
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/node/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/postcss/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[root-of-the-server]__4a408683._.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[turbopack]_runtime.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)]
+    [at Module._load (node:internal/modules/cjs/loader:986:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at Object.<anonymous> (/Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1358:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1208:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1024:12)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+
+Import trace:
+  Client Component Browser:
+    ./Documents/projects/oceanlabz-portal/app/globals.css [Client Component Browser]
+    ./Documents/projects/oceanlabz-portal/app/layout.tsx [Server Component]
+
+
+[00:00:28.925] Browser ERROR   ./Documents/projects/oceanlabz-portal/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.darwin-x64.node'
+Require stack:
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/node/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/postcss/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[root-of-the-server]__4a408683._.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[turbopack]_runtime.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)]
+    [at Module._load (node:internal/modules/cjs/loader:986:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at Object.<anonymous> (/Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1358:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1208:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1024:12)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+
+Import trace:
+  Client Component Browser:
+    ./Documents/projects/oceanlabz-portal/app/globals.css [Client Component Browser]
+    ./Documents/projects/oceanlabz-portal/app/layout.tsx [Server Component]
+[00:00:29.389] Browser ERROR   ./Documents/projects/oceanlabz-portal/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.darwin-x64.node'
+Require stack:
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/node/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/postcss/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[root-of-the-server]__4a408683._.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[turbopack]_runtime.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)]
+    [at Module._load (node:internal/modules/cjs/loader:986:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at Object.<anonymous> (/Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1358:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1208:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1024:12)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+
+Import trace:
+  Client Component Browser:
+    ./Documents/projects/oceanlabz-portal/app/globals.css [Client Component Browser]
+    ./Documents/projects/oceanlabz-portal/app/layout.tsx [Server Component]
+[00:06:56.343] Server  ERROR    ⨯ ./Documents/projects/oceanlabz-portal/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.darwin-x64.node'
+Require stack:
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/node/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/postcss/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[root-of-the-server]__4a408683._.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[turbopack]_runtime.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)]
+    [at Module._load (node:internal/modules/cjs/loader:986:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at Object.<anonymous> (/Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1358:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1208:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1024:12)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+
+Import trace:
+  Client Component Browser:
+    ./Documents/projects/oceanlabz-portal/app/globals.css [Client Component Browser]
+    ./Documents/projects/oceanlabz-portal/app/layout.tsx [Server Component]
+
+
+[00:06:56.779] Browser ERROR   uncaughtError: Error: ./Documents/projects/oceanlabz-portal/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.darwin-x64.node'
+Require stack:
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/node/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/postcss/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[root-of-the-server]__4a408683._.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[turbopack]_runtime.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)]
+    [at Module._load (node:internal/modules/cjs/loader:986:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at Object.<anonymous> (/Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1358:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1208:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1024:12)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+
+Import trace:
+  Client Component Browser:
+    ./Documents/projects/oceanlabz-portal/app/globals.css [Client Component Browser]
+    ./Documents/projects/oceanlabz-portal/app/layout.tsx [Server Component]
+
+
+[00:06:56.948] Browser ERROR   ./Documents/projects/oceanlabz-portal/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.darwin-x64.node'
+Require stack:
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/node/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/postcss/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[root-of-the-server]__4a408683._.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[turbopack]_runtime.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)]
+    [at Module._load (node:internal/modules/cjs/loader:986:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at Object.<anonymous> (/Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1358:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1208:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1024:12)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+
+Import trace:
+  Client Component Browser:
+    ./Documents/projects/oceanlabz-portal/app/globals.css [Client Component Browser]
+    ./Documents/projects/oceanlabz-portal/app/layout.tsx [Server Component]
+[00:06:57.044] Browser ERROR   ./Documents/projects/oceanlabz-portal/app/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '../lightningcss.darwin-x64.node'
+Require stack:
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/node/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/@tailwindcss/postcss/dist/index.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[root-of-the-server]__4a408683._.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/chunks/[turbopack]_runtime.js
+- /Users/officedesign/Documents/projects/oceanlabz-portal/.next/dev/build/postcss.js
+    [at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)]
+    [at Module._load (node:internal/modules/cjs/loader:986:27)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+    [at require (node:internal/modules/helpers:179:18)]
+    [at Object.<anonymous> (/Users/officedesign/Documents/projects/oceanlabz-portal/node_modules/lightningcss/node/index.js:22:22)]
+    [at Module._compile (node:internal/modules/cjs/loader:1358:14)]
+    [at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)]
+    [at Module.load (node:internal/modules/cjs/loader:1208:32)]
+    [at Module._load (node:internal/modules/cjs/loader:1024:12)]
+    [at Module.require (node:internal/modules/cjs/loader:1233:19)]
+
+Import trace:
+  Client Component Browser:
+    ./Documents/projects/oceanlabz-portal/app/globals.css [Client Component Browser]
+    ./Documents/projects/oceanlabz-portal/app/layout.tsx [Server Component]
