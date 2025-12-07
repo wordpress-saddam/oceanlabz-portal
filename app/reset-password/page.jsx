@@ -1,11 +1,11 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { authApi, validatePassword } from "@/lib/api";
 
-export default function ResetPassword() {
+function ResetPasswordForm() {
     const router = useRouter();
     const searchParams = useSearchParams();
     const [formData, setFormData] = useState({
@@ -215,5 +215,20 @@ export default function ResetPassword() {
                 </div>
             </div>
         </div>
+    );
+}
+
+export default function ResetPassword() {
+    return (
+        <Suspense fallback={
+            <div className="min-h-screen bg-gradient-to-br from-[#0a0a0a] via-[#1a1a2e] to-[#16213e] flex items-center justify-center p-4">
+                <div className="text-center">
+                    <h2 className="text-2xl font-bold text-white mb-4">Loading...</h2>
+                    <p className="text-[#9a9a9a] mb-6">Please wait while we load your data.</p>
+                </div>
+            </div>
+        }>
+            <ResetPasswordComponent />
+        </Suspense>
     );
 }
